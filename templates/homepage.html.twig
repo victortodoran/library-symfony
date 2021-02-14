@@ -1,0 +1,21 @@
+{% extends 'base.html.twig' %}
+
+{% block stylesheets %}
+    <link rel="stylesheet" href="{{ asset('css/homepage.css') }}">
+{% endblock %}
+
+{% block body %}
+    <div class="library-menu">
+        <h1>Welcome to Our Library</h1>
+        <ul>
+            <li><a href="{{ path('book_add_view') }}"><button>Add New Book</button></a></li>
+            <li><a href="{{ path('book_delete_view') }}"><button>Delete Book</button></a></li>
+            <li><a href="{{ path('book_update_view') }}"><button>Update Book</button></a></li>
+            <li><a href="{{ path('book_find_by_id') }}"><button>Find By Id</button></a></li>
+            <li><a href="{{ path('book_show_all') }}"><button>Show All Books</button></a></li>
+        </ul>
+    </div>
+{% endblock %}
+
+
+

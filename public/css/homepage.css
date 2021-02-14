@@ -1,0 +1,19 @@
+.library-menu {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.library-menu > ul {
+    list-style-type: none;
+
+}
+
+li {
+    display: block;
+    margin: 20px;
+}
+
+button {
+    width: 200px;
+    padding: 20px;
+}
