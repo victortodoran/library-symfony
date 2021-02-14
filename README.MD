@@ -1,0 +1,1 @@
+This is a project used to learn Symfony. 
